@@ -1,0 +1,15 @@
+.clear{
+
+    width: 340px;
+
+    margin: 10px auto;
+
+    background-color: #ac0246;
+
+}
+
+.clear:hover{
+
+    background-color: #ebb000;
+
+}
