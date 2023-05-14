@@ -6,6 +6,7 @@ import { CalculadoraComponent } from './components/calculadora/calculadora.compo
 import { DisplayComponent } from './components/display/display.component';
 import { BotonComponent } from './components/boton/boton.component';
 import { BtnClearComponent } from './components/btn-clear/btn-clear.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BtnClearComponent } from './components/btn-clear/btn-clear.component';
     BtnClearComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
