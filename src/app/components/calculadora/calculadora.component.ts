@@ -23,7 +23,7 @@ export class CalculadoraComponent {
   }
 
   limpiarDisplay() {
-    this.expresion = '0';
+    this.expresion = "0";
   }
   
 }
