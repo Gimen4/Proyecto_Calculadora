@@ -11,11 +11,11 @@ export class CalculadoraComponent {
   expresion: string = '0';
 
   agregarExpresion(valor: string) {
-    if (valor == '=') {
+    if (valor === '=') {
       console.log('Calculando...');     
       this.expresion = evaluate(this.expresion);
     } else {
-      if(this.expresion =='0') {
+      if(this.expresion === '0') {
         this.expresion = '';
       }
       this.expresion += valor;
